@@ -17,8 +17,12 @@ Long-press SOS → action steps grounded in your city's actual laws. Haiku 4.5 +
 → [live demo](https://casterlygit.github.io/emergency-ai/)
 
 #### [laptop-dictation](https://github.com/CasterlyGit/laptop-dictation) — push-to-talk Whisper
-Hold a hotkey, speak, text appears in your clipboard. Local Whisper.cpp, no cloud roundtrip. Companion to emergency-ai.
+Hold a hotkey, speak, text appears in your clipboard — and as of v0.2, **auto-pastes + presses Enter** so it's a true voice interface for Claude Code. Local Whisper.cpp, no cloud roundtrip.
 → [live demo](https://casterlygit.github.io/laptop-dictation/)
+
+#### [hand-signal](https://github.com/CasterlyGit/hand-signal) — webcam gesture confirmations
+`handsignal ask "Approve this?"` pops a focused, always-on-top window. 👍 approves, 👎 denies, ✊ "I'll do it." MediaPipe Hands + a tiny pure-geometry classifier, all local. Designed for hands-free Claude Code prompts; safe-mode advisory by default. Third modality alongside voice + agents.
+→ repo: [CasterlyGit/hand-signal](https://github.com/CasterlyGit/hand-signal)
 
 #### [neon-stereo](https://github.com/CasterlyGit/neon-stereo) — desktop music client with attitude
 Spotify + YouTube Music in one Electron app. Scanline overlays, neon glow, mono readouts — visual identity treated as a first-class feature.
