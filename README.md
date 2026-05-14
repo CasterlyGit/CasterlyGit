@@ -2,7 +2,15 @@
 
 → **[casterlygit.github.io](https://casterlygit.github.io/)** for the curated tour with live demos.
 
-Mostly macOS. Mostly Python and TypeScript. Mostly AI-augmented dev workflows where one engineer ships at team pace. Each project here ships v0.1 in days — and has a live demo so you don't need to read code to see what it does.
+Mostly macOS. Mostly Python and TypeScript. Some Three.js. Mostly AI-augmented dev workflows where one engineer ships at team pace. Each project here ships v0.1 in days — and has a live demo so you don't need to read code to see what it does.
+
+---
+
+### 🐉 Spotlight — playable browser game
+
+#### [realm](https://github.com/CasterlyGit/realm) — dragon-flight combat
+Pick one of four distinct dragon archetypes — Crimson King, Sky River, Jade Serpent, Frostbloom — and clear three waves of aerial combat. Three.js, procedural geometry, no asset downloads. Custom shader fire breath, ~700 instanced trees, per-archetype animation.
+**→ [play it now](https://casterlygit.github.io/realm/)**
 
 ---
 
@@ -25,6 +33,10 @@ Voice task → autonomous Claude Code agent runs it in a sandbox. Each task gets
 ---
 
 ### Also shipped
+
+#### [claude-meter](https://github.com/CasterlyGit/claude-meter) — live token-usage dashboard
+Always-on-top widget. Two concentric rings — 5-hour outside, weekly inside. Every visual property encodes information: hue, thickness, pace tick, comet tail, dashed overflow. No labels, no clutter.
+→ [live demo](https://casterlygit.github.io/claude-meter/)
 
 #### [emergency-ai](https://github.com/CasterlyGit/emergency-ai) — sub-2-second jurisdiction-aware responses
 Long-press SOS → action steps grounded in your city's actual laws. Haiku 4.5 + prompt caching + streaming structured output.
