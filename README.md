@@ -1,47 +1,43 @@
-## Building AI agents that live on your desktop.
+## I build small, agentic tools.
 
-I work on autonomous AI systems — voice-driven dispatchers, vision-aware assistants, and the orchestration layer that makes them feel like real apps instead of chat boxes. Most recent work is in **Python**, **TypeScript**, and **Go**.
+Mostly macOS. Mostly Python and TypeScript. Mostly AI-augmented dev workflows where one engineer ships at team pace.
 
-Currently employed and shipping. Open to interesting roles and collaborations.
+Live, interactive demos for everything below — no need to read code.
 
 ---
 
-### What I'm building
+### Currently shipping
 
 #### [curby](https://github.com/CasterlyGit/curby) — voice-driven desktop agent dispatcher
-Hold a hotkey, speak a task, and curby spawns an autonomous Claude Code agent in its own sandbox. Each task gets a neon-cursor puck on the screen edge with live status, pause/cancel/amend controls. Built on PyQt5 + pynput + Google STT, with a PyObjC shim that pins overlays above every app and across all macOS spaces.
+Hold a hotkey, speak a task, watch an autonomous Claude Code agent run it in a sandbox. Each task gets a neon-cursor puck on the screen edge with live status and pause / cancel / amend controls.
+→ [live demo](https://casterlygit.github.io/curby/)
 
-#### [vista](https://github.com/CasterlyGit/vista) — vision-aware desktop overlay
-Ask *"where's the publish button?"* — Claude identifies the on-screen UI element and draws a ring around it in real time. Electron + TypeScript, using the Claude Code CLI for vision.
+#### [emergency-ai](https://github.com/CasterlyGit/emergency-ai) — sub-2-second jurisdiction-aware responses
+Long-press SOS → action steps grounded in your city's actual laws. Haiku 4.5 + prompt caching + streaming structured output.
+→ [live demo](https://casterlygit.github.io/emergency-ai/)
 
-#### [mentor-ai](https://github.com/CasterlyGit/mentor-ai) — real-time multimodal coding mentor
-Watches your screen, listens to your voice, delivers live guidance. FastAPI backend, local Whisper for transcription, Groq for fast inference.
+#### [laptop-dictation](https://github.com/CasterlyGit/laptop-dictation) — push-to-talk Whisper
+Hold a hotkey, speak, text appears in your clipboard. Local Whisper.cpp, no cloud roundtrip. Companion to emergency-ai.
+→ [live demo](https://casterlygit.github.io/laptop-dictation/)
 
----
+#### [neon-stereo](https://github.com/CasterlyGit/neon-stereo) — desktop music client with attitude
+Spotify + YouTube Music in one Electron app. Scanline overlays, neon glow, mono readouts — visual identity treated as a first-class feature.
+→ [live demo](https://casterlygit.github.io/neon-stereo/)
 
-### Other work worth a look
+#### [agent-harness](https://github.com/CasterlyGit/agent-harness) — the orchestrator behind all of the above
+Skills, pipeline prompts, and inbox watchers that turn ideas into shipped PRs. Obsidian → GitHub issue → branch → PR → merged, with minimal human turns.
+→ [live demo](https://casterlygit.github.io/agent-harness/)
 
-- **[url-shortener](https://github.com/CasterlyGit/url-shortener)** — Production-grade Go service. Redis + Postgres, Prometheus metrics, k6 load tests, Docker Compose deploy.
-- **[ai-persona-universe](https://github.com/CasterlyGit/ai-persona-universe)** — Interactive 3D solar system of AI personas. React + Three.js + Node.
-- **[Meal-Planner](https://github.com/CasterlyGit/Meal-Planner)** — Animated weekly meal planner. React, Supabase, Framer Motion.
-- **[myHomeNeeds](https://github.com/CasterlyGit/myHomeNeeds)** — Cross-platform household tracker. React Native + Expo + Firebase.
-
----
-
-### Tech I reach for
-
-| | |
-|---|---|
-| **Languages** | Python · TypeScript · Go · JavaScript |
-| **AI / ML** | Claude API · Whisper · Groq · multimodal pipelines |
-| **Backend** | FastAPI · Express · Go services · Postgres · Redis |
-| **Frontend** | React · Electron · PyQt · Three.js · React Native |
-| **Infra** | Docker · Prometheus · k6 · GitHub Actions |
+#### [neetcode](https://github.com/CasterlyGit/neetcode) — daily DSA grind
+Auto-synced solutions with a live stats dashboard. Streak, language breakdown, difficulty mix, recent solves.
+→ [live dashboard](https://casterlygit.github.io/neetcode/)
 
 ---
 
-### Reach me
+### How I work
 
-- Email — tarunsp23@gmail.com
-- GitHub — you're already here
+Each project ships v0.1 in days, not quarters. The pipeline:
 
+> idea → Obsidian note → GitHub issue → `/iterate` → branch → PR → merged
+
+The harness above is what makes that loop tight. The other projects are real outputs of it.
