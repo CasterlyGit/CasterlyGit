@@ -1,8 +1,8 @@
 ## hi — I build small, agentic tools.
 
-> **Recruiter / first-time visitor?** → **[casterlygit.github.io](https://casterlygit.github.io/)** is the curated tour.
+→ **[casterlygit.github.io](https://casterlygit.github.io/)** for the curated tour with live demos.
 
-Mostly macOS. Mostly Python and TypeScript. Mostly AI-augmented dev workflows where one engineer ships at team pace. Live, interactive demos for everything below — no need to read code.
+Mostly macOS. Mostly Python and TypeScript. Mostly AI-augmented dev workflows where one engineer ships at team pace. Each project here ships v0.1 in days — and has a live demo so you don't need to read code to see what it does.
 
 ---
 
