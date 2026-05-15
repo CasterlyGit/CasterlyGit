@@ -30,6 +30,8 @@ Hold a hotkey, talk, release. Whisper transcribes locally, pastes into the focus
 Voice task → autonomous Claude Code agent runs it in a sandbox. Each task gets a neon-cursor puck on the screen edge with live status and pause / cancel / amend controls.
 **→ [live demo](https://casterlygit.github.io/curby/)**
 
+*currently exploring: a unified approver across the three — when any Claude Code session needs input, attention routes to it and voice or gesture resolves the prompt.*
+
 ---
 
 ### Also shipped
