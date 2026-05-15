@@ -30,7 +30,11 @@ Hold a hotkey, talk, release. Whisper transcribes locally, pastes into the focus
 Voice task → autonomous Claude Code agent runs it in a sandbox. Each task gets a neon-cursor puck on the screen edge with live status and pause / cancel / amend controls.
 **→ [live demo](https://casterlygit.github.io/curby/)**
 
-*currently exploring: a unified approver across the three — when any Claude Code session needs input, attention routes to it and voice or gesture resolves the prompt.*
+#### 🧠 [shed](https://github.com/CasterlyGit/shed) — memory in
+Silent shadow layer for Claude Code. Picks the 2-3 most relevant notes from your past and prepends them to every prompt. Watches for corrections, queues them for one-key approval the next morning. Local embeddings, local-only by default.
+**→ [live demo](https://casterlygit.github.io/shed/)**
+
+*currently exploring: a unified approver across the stack — when any Claude Code session needs input, attention routes to it and voice or gesture resolves the prompt.*
 
 ---
 
