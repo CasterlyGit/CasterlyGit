@@ -41,7 +41,7 @@ Silent shadow layer for Claude Code. Picks the 2-3 most relevant notes from your
 ### Also shipped
 
 #### [claude-meter](https://github.com/CasterlyGit/claude-meter) — live token-usage dashboard
-Always-on-top widget. Two concentric rings — 5-hour outside, weekly inside. Every visual property encodes information: hue, thickness, pace tick, comet tail, dashed overflow. No labels, no clutter.
+Always-on-top widget. Two concentric rings — 5-hour outside, weekly inside. Every visual property encodes information: hue, thickness, pace tick, comet tail, dashed overflow, wall-clock reset times. Collapses to a circular pillar that fills bottom-up by % used, refreshes itself every 10 minutes.
 → [live demo](https://casterlygit.github.io/claude-meter/)
 
 #### [emergency-ai](https://github.com/CasterlyGit/emergency-ai) — sub-2-second jurisdiction-aware responses
