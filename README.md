@@ -44,8 +44,8 @@ Silent shadow layer for Claude Code. Picks the 2-3 most relevant notes from your
 Always-on-top widget. Two concentric rings — 5-hour outside, weekly inside. Every visual property encodes information: hue, thickness, pace tick, comet tail, dashed overflow, wall-clock reset times. Collapses to a circular pillar that fills bottom-up by % used, refreshes itself every 10 minutes.
 → [live demo](https://casterlygit.github.io/claude-meter/)
 
-#### [emergency-ai](https://github.com/CasterlyGit/emergency-ai) — sub-2-second jurisdiction-aware responses
-Long-press SOS → action steps grounded in your city's actual laws. Haiku 4.5 + prompt caching + streaming structured output.
+#### [emergency-ai](https://github.com/CasterlyGit/emergency-ai) — multi-tenant emergency response API
+RAG + Redis + Postgres + Prometheus, sub-2s at 50 concurrent users. API key auth, rate limiting, pgvector statute retrieval. v0.2 — now a real deployed service.
 → [live demo](https://casterlygit.github.io/emergency-ai/)
 
 #### [neon-stereo](https://github.com/CasterlyGit/neon-stereo) — desktop music client with attitude
