@@ -26,12 +26,12 @@ Hold a hotkey, talk, release. Whisper transcribes locally, pastes into the focus
 `handsignal ask "approve?"` pops a focused window. 👍 approves, 👎 denies, ✊ hands control back to you. MediaPipe Hands, all local.
 **→ [live demo](https://casterlygit.github.io/hand-signal/)**
 
-#### 🤖 [curby](https://github.com/CasterlyGit/curby) — agent dispatcher
-Voice task → autonomous Claude Code agent runs it in a sandbox. Each task gets a neon-cursor puck on the screen edge with live status and pause / cancel / amend controls.
+#### 🤖 [curby](https://github.com/CasterlyGit/curby) — agent dispatcher · v0.4
+Voice → spoken Claude reply in **~780ms** (measured). Two modes: quick-ask (Ctrl+Space → Ava Premium TTS in-process, 125ms warm TTFS) and agent dispatch (Ctrl+Shift+Space → sandboxed Claude Code agent with neon status puck). Pluggable backends, prewarm on startup, interrupt mid-speech, conversational follow-ups. `curby stats` surfaces P50/P95 latency from your real session log.
 **→ [live demo](https://casterlygit.github.io/curby/)**
 
-#### 🧠 [shed](https://github.com/CasterlyGit/shed) — memory in
-Silent shadow layer for Claude Code. Picks the 2-3 most relevant notes from your past and prepends them to every prompt. Watches for corrections, queues them for one-key approval the next morning. Local embeddings, local-only by default.
+#### 🧠 [shed](https://github.com/CasterlyGit/shed) — memory in · v0.2
+Silent hook layer for Claude Code. bge-small-en-v1.5 via ONNX — **6ms encode**, no LLM call in the retrieval path. Injects the 2–3 most relevant memory files before every prompt, detects corrections and queues proposals, learns which tool-call patterns you always approve. `shed stats` tracks injection hit rate, proposal accept/reject ratio, and top memories. Local-only, fail-open, manual-approve by default.
 **→ [live demo](https://casterlygit.github.io/shed/)**
 
 *currently exploring: a unified approver across the stack — when any Claude Code session needs input, attention routes to it and voice or gesture resolves the prompt.*
