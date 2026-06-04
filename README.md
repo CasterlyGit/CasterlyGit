@@ -65,6 +65,13 @@ flowchart LR
 
 ---
 
+## macOS native
+
+**[ledge](https://github.com/CasterlyGit/ledge)** — An Apple-style notch on every display that catches your screenshots: hover for a sliding gallery rail, drag captures out as real files, drop anything in. ~700 lines of AppKit, zero TCC prompts.
+→ [demo](https://casterlygit.github.io/ledge/) · [repo](https://github.com/CasterlyGit/ledge)
+
+---
+
 ## Creative
 
 **[realm](https://github.com/CasterlyGit/realm)** — Browser dragon-flight combat: four archetypes with distinct breath weapons, three escalating waves, MediaPipe webcam hand-tracking — one Three.js + Vite build, no backend.
