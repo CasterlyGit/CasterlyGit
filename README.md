@@ -37,6 +37,9 @@ flowchart LR
 **[claude-meter](https://github.com/CasterlyGit/claude-meter)** — Always-on-top HUD showing your 5-hour and weekly token budgets as concentric rings, every visual property encoding real signal.
 → [demo](https://casterlygit.github.io/CasterlyGit/claude-meter/) · [repo](https://github.com/CasterlyGit/claude-meter)
 
+**[trident](https://github.com/CasterlyGit/trident)** — A token-burn governor for AI agents: every request on every surface routed through three god-routers — MINT prices it, SHAPER shapes it, LEDGER settles it. Routing only, so correctness is never on the lever.
+→ [demo](https://casterlygit.github.io/trident/) · [repo](https://github.com/CasterlyGit/trident)
+
 **[agent-harness](https://github.com/CasterlyGit/agent-harness)** — Obsidian inbox ticket → live status page → Claude Code worker → merged PR, no keyboard in between.
 → [demo](https://casterlygit.github.io/CasterlyGit/agent-harness/) · [repo](https://github.com/CasterlyGit/agent-harness)
 
