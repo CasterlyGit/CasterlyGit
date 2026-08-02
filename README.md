@@ -45,5 +45,7 @@ I prefer small, inspectable changes with explicit boundaries:
 The public positioning roadmap, active program map, and contribution workflow
 live in [docs/ROADMAP.md](docs/ROADMAP.md) and
 [docs/PROGRAM.md](docs/PROGRAM.md). Flagship selection, current status, and
-source evidence live in [docs/FLAGSHIPS.md](docs/FLAGSHIPS.md). The curated project hub is
+source evidence live in [docs/FLAGSHIPS.md](docs/FLAGSHIPS.md). The proportional
+delivery benchmark and truthful version progression are maintained in
+[docs/DELIVERY.md](docs/DELIVERY.md). The curated project hub is
 [casterlygit.github.io](https://casterlygit.github.io/).

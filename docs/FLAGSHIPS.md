@@ -41,6 +41,11 @@ This is a dependency ledger, not a quality ranking. `Ready` means the current
 public evaluation layer and its checks are complete. Other states name the next
 gate rather than hiding it.
 
+Release readiness is tracked separately because a clear evaluation path does
+not by itself justify a version tag. See the
+[delivery and version ledger](DELIVERY.md) for each project's audited version
+stage, next eligible milestone, and evidence gate.
+
 | Flagship | State | Verified current status and next gate |
 | --- | --- | --- |
 | Cognitive Development OS | Deferred on active implementation | The bounded Layer 4 default branch has passing tests. Flagship evaluation issue [#15](https://github.com/CasterlyGit/cognitive-development-os/issues/15) waits for active control-plane and north-star documentation work to settle so it does not describe moving source. |
