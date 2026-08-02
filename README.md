@@ -39,4 +39,7 @@ I prefer small, inspectable changes with explicit boundaries:
 - Automation should preserve a human decision point for consequential work.
 - Each repository documents its own current status and limitations; active work is not presented as finished product.
 
-The public positioning roadmap and contribution workflow live in [docs/ROADMAP.md](docs/ROADMAP.md). The curated project hub is [casterlygit.github.io](https://casterlygit.github.io/).
+The public positioning roadmap, active program map, and contribution workflow
+live in [docs/ROADMAP.md](docs/ROADMAP.md) and
+[docs/PROGRAM.md](docs/PROGRAM.md). The curated project hub is
+[casterlygit.github.io](https://casterlygit.github.io/).
