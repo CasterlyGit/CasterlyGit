@@ -44,8 +44,10 @@ Tracked in [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3).
 
 Tracked in [#6](https://github.com/CasterlyGit/CasterlyGit/issues/6).
 
-- [ ] Keep a dependency-aware map of completed, active, deferred, and
+- [x] Keep a dependency-aware map of completed, active, deferred, and
   owner-decision layers.
+- [x] Establish the six-project flagship architecture, selection rationale,
+  evidence matrix, and readiness ledger.
 - [ ] Improve public evaluation paths in the featured repositories through
   focused, source-backed pull requests.
 - [ ] Re-audit profile copy after each material repository documentation change.
