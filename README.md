@@ -28,7 +28,7 @@ This profile highlights work across three connected engineering lanes:
 ### Systems and local interaction
 
 - **[Curby](https://github.com/CasterlyGit/curby)** — a macOS voice-driven desktop companion that supports spoken questions and sandboxed coding-agent tasks.
-- **[laptop-dictation](https://github.com/CasterlyGit/laptop-dictation)** — local push-to-talk dictation built around Whisper.cpp for macOS and Linux.
+- **[laptop-dictation](https://github.com/CasterlyGit/laptop-dictation)** — local push-to-talk dictation built around Whisper.cpp for macOS, with Linux documented as best-effort.
 - **[Ledge](https://github.com/CasterlyGit/ledge)** — a native macOS screenshot shelf built with AppKit.
 
 ## How I work
