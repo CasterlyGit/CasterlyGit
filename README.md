@@ -28,9 +28,6 @@ visions.
 ## Read the code
 
 Each main project documents its own architecture, setup, verification, and
-current limits. Retired prototypes remain archived for historical reference;
-they are not active product directions.
-
-The [roadmap](docs/ROADMAP.md), [program map](docs/PROGRAM.md), and
-[delivery ledger](docs/DELIVERY.md) record the public claims and remaining
-gates conservatively.
+current limits. The [portfolio map](docs/PORTFOLIO.md) is the canonical public
+overview. Retired prototypes and the prior six-flagship program remain archived
+for historical reference; they are not active product directions.
