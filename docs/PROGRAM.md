@@ -54,3 +54,49 @@ The program is substantively complete when each active public evidence
 repository has a clear, source-backed evaluation path; the profile is re-audited
 against those paths; and the only remaining work is explicitly owner-controlled
 account or repository state.
+
+## Final definition of done
+
+CasterlyGit is complete when its public overview is organized around these six
+flagship projects, with supporting repositories discoverable as evidence rather
+than presented as a flat list:
+
+1. **Cognitive Development OS** — bounded local-first planning and review
+   control-plane work.
+2. **Trident** — developer-tool systems work with explicit routing and
+   verification boundaries.
+3. **Shed** — local context retrieval and human-approved learning proposals.
+4. **emergency-ai** — backend/platform architecture with documented operating
+   limits.
+5. **Curby** — local desktop and voice-driven interaction work.
+6. **agent-harness** — reviewable workflow automation from structured task to
+   pull request.
+
+Each flagship must have verified current status, credible setup or architecture
+evidence, a reproducible validation path where applicable, and an accurate role
+in the overall engineering story. Public overview copy may promote a flagship
+only after its source evidence and stated limits are current.
+
+## Autonomous dependency queue
+
+Work advances through this ordered queue. After a verified result, select the
+highest-value unblocked item in the earliest incomplete phase; do not treat a
+merged pull request as a program endpoint.
+
+| Phase | Queue objective | Gate to advance |
+| --- | --- | --- |
+| 1. Governance | Maintain roadmap, capability matrix, issue/PR workflow, evidence standards, release/privacy checks, and owner-only settings/pins boundary. | The central map names all work and owner decisions. |
+| 2. Flagship narrative | Publish the six-project structure, selection rationale, status ledger, and evidence links. | Every promoted statement is source-backed and each candidate passes readiness review. |
+| 3. Per-repository readiness | Give every flagship truthful README/status/limitations, architecture/setup, validation, and applicable demo evidence. | Repository-specific checks pass and claims are re-audited. |
+| 4. Quality repair | Repair inherited documentation, lint, CI, workflow, release-guard, and test-baseline defects in separate narrow changes. | The underlying verification gate passes; no gate is weakened or bypassed. |
+| 5. Presentation and evidence | Strengthen verified demos, diagrams, examples, tests, and contribution surfaces. | Added presentation is representative and reproducible. |
+| 6. Final review | Audit each flagship against overview claims and record exact profile/pin recommendations. | Only explicit owner-controlled settings or irreversible actions remain. |
+
+### Self-healing rule
+
+When a technical check blocks a queued item, record the exact failure in a
+narrow remediation issue, repair it through a focused branch and pull request,
+verify the original gate, then return to every dependent item. Continue
+independent queue items in the meantime. CI, release guards, tests, privacy
+checks, review gates, and repository policy are evidence, not obstacles to
+work around.
