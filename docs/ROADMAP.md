@@ -32,13 +32,15 @@ Tracked in [#2](https://github.com/CasterlyGit/CasterlyGit/issues/2).
 - [x] Make any corrections in independently reviewable repository PRs.
 - [x] Add or refresh only documentation that can be validated locally.
 
-### M3 — Decide profile metadata and pins
+### M3 — Configure approved profile pins; retain metadata boundaries
 
 Tracked in [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3).
 
-- [ ] Review bio, pinned repositories, and external links with the account
-  owner.
-- [ ] Apply approved settings manually and record the decision outcome.
+- [x] Review and approve the six flagship repositories with the account owner.
+- [x] Apply the approved pins manually: Cognitive Development OS, Trident,
+  Shed, emergency-ai, Curby, and agent-harness.
+- [ ] Review bio and external links separately with the account owner; they
+  remain unchanged by the pin decision.
 
 ### M4 — Execute the layered public-readiness program
 
