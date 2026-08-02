@@ -68,7 +68,8 @@ flagship only through a new evidence review and a focused roadmap decision.
 
 ## Owner-only boundary
 
-This architecture recommends that the six flagships be considered for profile
-pins, but it does not change pins, repository metadata, profile fields,
-visibility, ownership, archive state, or names. Those decisions remain in
-[profile decision #3](https://github.com/CasterlyGit/CasterlyGit/issues/3).
+The six flagships are now the profile's pinned repositories: Cognitive
+Development OS, Trident, Shed, emergency-ai, Curby, and agent-harness. The
+approved pin decision does not change repository metadata, profile fields,
+visibility, ownership, archive state, or names. Bio and external-link choices
+remain in [profile decision #3](https://github.com/CasterlyGit/CasterlyGit/issues/3).

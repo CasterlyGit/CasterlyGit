@@ -39,7 +39,8 @@ ledger.
 | agent-harness trust signal | Owner-deferred credential gate | Release-guard documentation is prepared, but its GitHub Project sync check needs owner-controlled Actions token configuration. The owner has explicitly deferred that configuration; it is not bypassed or treated as program failure. | [agent-harness #1](https://github.com/CasterlyGit/agent-harness/issues/1) · [PR #3](https://github.com/CasterlyGit/agent-harness/pull/3) |
 | emergency-ai trust signal | Complete | Supported Python CI is green; status, setup, architecture, verification, latency evidence, deployment state, domain limits, and the unreleased 1.0 development status are explicit. | [emergency-ai #12](https://github.com/CasterlyGit/emergency-ai/issues/12) · [PR #13](https://github.com/CasterlyGit/emergency-ai/pull/13) · [PR #15](https://github.com/CasterlyGit/emergency-ai/pull/15) · [PR #17](https://github.com/CasterlyGit/emergency-ai/pull/17) |
 | Systems and local interaction | Active quality-repair stack | Curby's feature, Ruff-baseline, and public-guard layers remain stacked; do not promote new presentation claims until the chain settles with supported CI. laptop-dictation and Ledge remain supporting evidence. | [Curby PR #41](https://github.com/CasterlyGit/curby/pull/41) · [PR #50](https://github.com/CasterlyGit/curby/pull/50) · [PR #52](https://github.com/CasterlyGit/curby/pull/52) · [Curby #48](https://github.com/CasterlyGit/curby/issues/48) |
-| Profile metadata and pins | Owner decision | Produce a precise recommendation, but do not change profile fields, pins, external links, or repository metadata without explicit approval. | [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3) |
+| Profile pins | Complete | The approved six flagships are pinned on the public profile. Bio, external links, repository metadata, and other profile fields were not changed. | [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3) |
+| Remaining profile metadata | Owner decision | Bio, external links, repository metadata, and other profile fields require a separate explicit owner decision. | [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3) |
 
 ## Dependency rules
 
@@ -61,7 +62,8 @@ ledger.
 | Six flagships carry distinct roles; laptop-dictation and Ledge remain supporting evidence. | Accepted | [Flagship architecture](FLAGSHIPS.md) |
 | Version tags and releases are prospective evidence, never presentation artifacts. | Accepted | [Delivery and version ledger](DELIVERY.md) |
 | Paver owns the Project Delivery Standard health model and mechanical ledger; this program consumes its results. | Accepted | [Delivery and version ledger](DELIVERY.md) |
-| Direct profile metadata, pinned repositories, and external links | Needs owner decision | [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3) |
+| Six flagship profile pins | Accepted and applied | Cognitive Development OS, Trident, Shed, emergency-ai, Curby, and agent-harness are the public profile pins. |
+| Bio, external links, and remaining profile metadata | Needs owner decision | [#3](https://github.com/CasterlyGit/CasterlyGit/issues/3) |
 | Private projects or private material as public evidence | Rejected | Public documentation links only to public, source-verifiable material. |
 
 ## Completion condition
