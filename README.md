@@ -1,91 +1,42 @@
-Building the layer that makes Claude Code learn you, hear you, and watch your hands — plus real systems work and a couple of creative builds.
+# CasterlyGit
 
-→ **[casterlygit.github.io](https://casterlygit.github.io/)** — curated hub with live demos for every project
+I build practical developer tools, backend control planes, and local-first
+systems where automation stays observable and reviewable.
 
----
+This profile highlights work across three connected engineering lanes:
 
-## How the stack fits together
+| Lane | What I explore | Selected evidence |
+| --- | --- | --- |
+| Applied AI and developer tools | Human-in-the-loop workflows, context retrieval, and reviewable agent behavior | [Cognitive Development OS](https://github.com/CasterlyGit/cognitive-development-os), [Shed](https://github.com/CasterlyGit/shed), [agent-harness](https://github.com/CasterlyGit/agent-harness) |
+| Backend and platform | Typed state, explicit permissions, dependency-aware planning, and operational guardrails | [Cognitive Development OS](https://github.com/CasterlyGit/cognitive-development-os), [Trident](https://github.com/CasterlyGit/trident), [emergency-ai](https://github.com/CasterlyGit/emergency-ai) |
+| Systems, desktop, and AI-adjacent interaction | Local-first desktop interaction, voice input, and systems-aware tooling | [Curby](https://github.com/CasterlyGit/curby), [Trident](https://github.com/CasterlyGit/trident), [laptop-dictation](https://github.com/CasterlyGit/laptop-dictation) |
 
-```mermaid
-flowchart LR
-    V[Voice\nlaptop-dictation / curby]:::hci
-    G[Gesture\nhand-signal / curby-jarvis]:::hci
-    D[Agent dispatch\ncurby / agent-harness]:::agent
-    M[Memory injection\nshed / metacortex]:::agent
-    O[Observability\nclaude-meter / emergency-ai]:::infra
+## Selected work
 
-    V --> D
-    G --> D
-    D --> M
-    M --> O
+### Applied AI and developer tools
 
-    classDef hci fill:#0f2027,stroke:#00e5ff,color:#e0f7fa
-    classDef agent fill:#0f2027,stroke:#b388ff,color:#ede7f6
-    classDef infra fill:#0f2027,stroke:#69ff47,color:#f1f8e9
-```
+- **[Cognitive Development OS](https://github.com/CasterlyGit/cognitive-development-os)** — actively being built as a local-first control plane for turning conversational intent into dependency-aware, reviewable work. Its current implementation is an early dry-run prototype with no network calls, background services, integrations, or authority to merge or deploy.
+- **[Shed](https://github.com/CasterlyGit/shed)** — a developer-tool hook layer that retrieves locally indexed context before a prompt and queues proposed memory changes for human review.
+- **[agent-harness](https://github.com/CasterlyGit/agent-harness)** — a local workflow harness that connects structured task files to GitHub issues, reviewable pull requests, and visible human review.
 
----
+### Backend and platform systems
 
-## Agentic Claude-Code stack
+- **[Cognitive Development OS](https://github.com/CasterlyGit/cognitive-development-os)** — public work on typed intent records, explicit confirmation boundaries, and a restart-safe dependency/conflict graph.
+- **[Trident](https://github.com/CasterlyGit/trident)** — a control layer for AI coding-agent routing that separates budget policy from verification and correctness boundaries.
+- **[emergency-ai](https://github.com/CasterlyGit/emergency-ai)** — a FastAPI-based service for jurisdiction-aware emergency guidance, with its architecture and operational dependencies documented in the repository.
 
-**[shed](https://github.com/CasterlyGit/shed)** — Silent memory injection before every prompt: local ONNX embeddings, 6 ms warm, no LLM call, no network.
-→ [demo](https://casterlygit.github.io/CasterlyGit/shed/) · [repo](https://github.com/CasterlyGit/shed)
+### Systems and local interaction
 
-**[metacortex](https://github.com/CasterlyGit/metacortex)** — The self-evolving layer above Claude Code: Constitution, Registry, Memory, and Shed working as one system.
-→ [demo](https://casterlygit.github.io/CasterlyGit/metacortex/) · [repo](https://github.com/CasterlyGit/metacortex)
+- **[Curby](https://github.com/CasterlyGit/curby)** — a macOS voice-driven desktop companion that supports spoken questions and sandboxed coding-agent tasks.
+- **[laptop-dictation](https://github.com/CasterlyGit/laptop-dictation)** — local push-to-talk dictation built around Whisper.cpp for macOS and Linux.
+- **[Ledge](https://github.com/CasterlyGit/ledge)** — a native macOS screenshot shelf built with AppKit.
 
-**[claude-meter](https://github.com/CasterlyGit/claude-meter)** — Always-on-top HUD showing your 5-hour and weekly token budgets as concentric rings, every visual property encoding real signal.
-→ [demo](https://casterlygit.github.io/CasterlyGit/claude-meter/) · [repo](https://github.com/CasterlyGit/claude-meter)
+## How I work
 
-**[trident](https://github.com/CasterlyGit/trident)** — A token-burn governor for AI agents: every request on every surface routed through three god-routers — MINT prices it, SHAPER shapes it, LEDGER settles it. Routing only, so correctness is never on the lever.
-→ [demo](https://casterlygit.github.io/trident/) · [repo](https://github.com/CasterlyGit/trident)
+I prefer small, inspectable changes with explicit boundaries:
 
-**[agent-harness](https://github.com/CasterlyGit/agent-harness)** — Obsidian inbox ticket → live status page → Claude Code worker → merged PR, no keyboard in between.
-→ [demo](https://casterlygit.github.io/CasterlyGit/agent-harness/) · [repo](https://github.com/CasterlyGit/agent-harness)
+- Public claims should be traceable to source, tests, or reproducible documentation.
+- Automation should preserve a human decision point for consequential work.
+- Each repository documents its own current status and limitations; active work is not presented as finished product.
 
----
-
-## Voice + Gesture HCI
-
-**[curby-jarvis](https://github.com/CasterlyGit/curby-jarvis)** — Point at anything on screen, say what to do: a cost-ranked 7-connector AX chain resolves the action, 248 passing headless tests.
-→ [demo](https://casterlygit.github.io/CasterlyGit/curby-jarvis/) · [repo](https://github.com/CasterlyGit/curby-jarvis)
-
-**[curby](https://github.com/CasterlyGit/curby)** — Ctrl+Space → spoken Claude answer in ~1 s, or Ctrl+Shift+Space → autonomous sandboxed Claude Code agent. Mystical feather state indicator.
-→ [demo](https://casterlygit.github.io/CasterlyGit/curby/) · [repo](https://github.com/CasterlyGit/curby)
-
-**[laptop-dictation](https://github.com/CasterlyGit/laptop-dictation)** — Hold a hotkey, speak, release: local Whisper.cpp transcribes in ~250 ms and pastes into any focused app. No cloud, no API key.
-→ [demo](https://casterlygit.github.io/CasterlyGit/laptop-dictation/) · [repo](https://github.com/CasterlyGit/laptop-dictation)
-
-**[hand-signal](https://github.com/CasterlyGit/hand-signal)** — Six universal gestures give Claude Code a yes/no without touching the keyboard: 21-landmark MediaPipe classifier, ~5% CPU at 30 fps, all local.
-→ [demo](https://casterlygit.github.io/CasterlyGit/hand-signal/) · [repo](https://github.com/CasterlyGit/hand-signal)
-
----
-
-## Systems + Infra
-
-**[emergency-ai](https://github.com/CasterlyGit/emergency-ai)** — Jurisdiction-aware emergency guidance API: FastAPI + Postgres + pgvector + Redis + Prometheus on Fly.io, streaming structured JSON from Claude Haiku, targeting sub-200 ms cached TTFT.
-→ [demo](https://casterlygit.github.io/CasterlyGit/emergency-ai/) · [repo](https://github.com/CasterlyGit/emergency-ai)
-
----
-
-## macOS native
-
-**[ledge](https://github.com/CasterlyGit/ledge)** — An Apple-style notch on every display that catches your screenshots: hover for a sliding gallery rail, drag captures out as real files, drop anything in. ~700 lines of AppKit, zero TCC prompts.
-→ [demo](https://casterlygit.github.io/ledge/) · [repo](https://github.com/CasterlyGit/ledge)
-
----
-
-## Creative
-
-**[realm](https://github.com/CasterlyGit/realm)** — Browser dragon-flight combat: four archetypes with distinct breath weapons, three escalating waves, MediaPipe webcam hand-tracking — one Three.js + Vite build, no backend.
-→ [play now](https://casterlygit.github.io/CasterlyGit/realm/) · [repo](https://github.com/CasterlyGit/realm)
-
-**[neon-stereo](https://github.com/CasterlyGit/neon-stereo)** — Spotify + YouTube transport behind a scanline-and-glow synthwave HUD: pure hand-rolled CSS, 15 Vitest tests, zero renderer secrets.
-→ [demo](https://casterlygit.github.io/CasterlyGit/neon-stereo/) · [repo](https://github.com/CasterlyGit/neon-stereo)
-
----
-
-## Practice
-
-**[neetcode](https://github.com/CasterlyGit/neetcode)** — Auto-synced NeetCode.io practice log: 39 problems, 84 Python submissions, CI-driven live dashboard.
-→ [dashboard](https://casterlygit.github.io/CasterlyGit/neetcode/) · [repo](https://github.com/CasterlyGit/neetcode)
+The public positioning roadmap and contribution workflow live in [docs/ROADMAP.md](docs/ROADMAP.md). The curated project hub is [casterlygit.github.io](https://casterlygit.github.io/).
