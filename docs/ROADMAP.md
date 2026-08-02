@@ -50,10 +50,19 @@ Tracked in [#6](https://github.com/CasterlyGit/CasterlyGit/issues/6).
   evidence matrix, and readiness ledger.
 - [ ] Improve public evaluation paths in the featured repositories through
   focused, source-backed pull requests.
+- [x] Audit all six flagship version histories and record prospective release
+  policies, next eligible milestones, release-note expectations, and proof
+  gates without manufacturing releases.
+- [x] Adopt a proportional mature-delivery evidence benchmark and connect it
+  to Paver's forthcoming Project Delivery Standard health/ledger rather than
+  duplicating its implementation.
+- [ ] Repair verified version/status mismatches in focused repository pull
+  requests before considering any new tags or releases.
 - [ ] Re-audit profile copy after each material repository documentation change.
 
-See [docs/PROGRAM.md](PROGRAM.md) for the active execution order and the
-decision log.
+See [docs/PROGRAM.md](PROGRAM.md) for the active execution order and decision
+log, and [docs/DELIVERY.md](DELIVERY.md) for the proportional readiness and
+version-progression ledger.
 
 ## Backlog rules
 
