@@ -10,6 +10,13 @@ I care about systems that are useful **and** inspectable: clear boundaries, repr
 - **[Cognitive OS](https://github.com/CasterlyGit/cognitive-os)** — an experimental local-first control plane for turning ongoing intent into dependency-aware, reviewable work without silently granting execution permission.
 - **[Neglected Science](https://github.com/CasterlyGit/neglected-science)** — an evidence-traceable metaresearch program for finding computationally testable questions and rejecting weak candidates before experimentation.
 
+## What I am exploring now
+
+- Where coding agents become reliable enough to use as engineering infrastructure rather than demos.
+- How software systems should represent intent, permissions, memory, verification, and failure when AI can take actions.
+- How strong technical communities turn individual experimentation into shared engineering knowledge.
+- How research and product ideas can be tested rigorously before large amounts of effort are committed to them.
+
 ## Other experiments
 
 - **[Emergency AI](https://github.com/CasterlyGit/emergency-ai)** — an offline-capable engineering prototype exploring bounded emergency decision-support interfaces. It is explicitly not an emergency service or clinically validated system.
@@ -24,3 +31,5 @@ I care about systems that are useful **and** inspectable: clear boundaries, repr
 - Use public projects to learn, test ideas, and have better technical conversations.
 
 For the fuller project map, see **[docs/PORTFOLIO.md](docs/PORTFOLIO.md)**.
+
+**Contact:** tarunsp23@gmail.com
