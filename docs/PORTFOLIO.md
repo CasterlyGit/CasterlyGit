@@ -1,23 +1,31 @@
 # CasterlyGit portfolio
 
-The public portfolio has three main projects.
+The public portfolio is organized around **proof of work first**. A visitor should be able to understand what is runnable, what is experimental, and what is only a research direction without decoding a larger personal project universe.
 
-| Project | Role | Current boundary |
+## Primary proof of work
+
+| Project | Why it is here | What can be inspected now |
 | --- | --- | --- |
-| [Cognitive OS](https://github.com/CasterlyGit/cognitive-os) | Local-first cognitive layer for turning intent into coherent, reviewable progress. | A verified local control-plane prototype; no live external effects. |
-| [AI Work System](https://github.com/CasterlyGit/ai-work-system) | The operational foundation for reliable, economical, cumulative AI-assisted work. | Its component registry names Paver, Trident, Shed, and Selfloop; private components remain private. |
-| [Neglected Science](https://github.com/CasterlyGit/neglected-science) | Evidence-traceable metaresearch and validation program. | Public source and evidence; no scientific publication or novelty claim. |
+| [Agent Harness](https://github.com/CasterlyGit/agent-harness) | The clearest demonstration of end-to-end agentic engineering workflow design. | Runnable workflow, architecture, setup, live demo, explicit human review loop, and current limitations. |
+| [Cognitive OS](https://github.com/CasterlyGit/cognitive-os) | Demonstrates systems thinking around intent, permissions, review, provenance, and bounded automation. | Verified local control-plane prototype and documented decision boundaries; no live external effects. |
+| [Neglected Science](https://github.com/CasterlyGit/neglected-science) | Demonstrates evidence-traceable research design and willingness to reject weak hypotheses rather than force a result. | Public source/evidence pipeline, validation methodology, rejected finalists, and explicit status. |
 
-Standalone applications remain independent projects. They are not alternate
-names for the main systems.
+## Secondary experiments
+
+These are useful standalone applications or technical experiments, but they are not presented as competing personal brands or as one giant platform.
+
+- [Emergency AI](https://github.com/CasterlyGit/emergency-ai) — offline-capable engineering prototype for bounded emergency decision-support interfaces, with explicit medical and legal limitations.
+- [Neon Stereo](https://github.com/CasterlyGit/neon-stereo) — standalone application experiment.
+- Other public repositories remain available for inspection when their specific problem is relevant.
+
+## Public communication rules
+
+1. Lead with the actual engineering problem and what is demonstrably working.
+2. Make the fastest evaluation path obvious.
+3. Separate present behavior from roadmap or aspiration.
+4. State important failure modes, safety boundaries, and limitations.
+5. Prefer a few legible projects over presenting every experiment as a flagship.
 
 ## Retired work
 
-Earlier assistant prototypes are archived, not deleted. They are historical
-reference only and do not define the active roadmap.
-
-## Historical material
-
-The earlier six-flagship program is retained in
-[`docs/archive/legacy-six-flagship-program/`](archive/legacy-six-flagship-program/)
-for provenance. It is superseded by this portfolio map.
+Earlier assistant prototypes remain archived for provenance when useful. They do not define the current public direction.
