@@ -1,33 +1,26 @@
-# CasterlyGit
+# Tarun Palakuru
 
-Three long-horizon projects, plus focused standalone applications. Everything is
-built with explicit controls, reviewable automation, and clear verification
-boundaries.
+Software engineer in Arizona building and learning in public around AI-assisted software development, reliable agent workflows, local-first tools, and evidence-traceable research.
 
-## Main projects
+I care about systems that are useful **and** inspectable: clear boundaries, reproducible verification, and honest documentation of what works and what does not.
 
-- **[Cognitive OS](https://github.com/CasterlyGit/cognitive-os)** — a
-  local-first layer that turns ongoing intent into coherent, safe, verifiable
-  progress.
-- **[AI Work System](https://github.com/CasterlyGit/ai-work-system)** — the
-  operational foundation for reliable, economical, cumulative AI-assisted work.
-  Its public components include [Trident](https://github.com/CasterlyGit/trident)
-  and [Shed](https://github.com/CasterlyGit/shed); other components remain
-  private while their safety boundaries mature.
-- **[Neglected Science](https://github.com/CasterlyGit/neglected-science)** —
-  a research program for identifying and rigorously testing neglected,
-  computationally testable scientific questions.
+## Start here
 
-## Standalone applications
+- **[Agent Harness](https://github.com/CasterlyGit/agent-harness)** — a personal agentic development harness that turns an Obsidian inbox ticket into a tested pull request with an explicit human review loop. Includes a live demo and end-to-end workflow.
+- **[Cognitive OS](https://github.com/CasterlyGit/cognitive-os)** — an experimental local-first control plane for turning ongoing intent into dependency-aware, reviewable work without silently granting execution permission.
+- **[Neglected Science](https://github.com/CasterlyGit/neglected-science)** — an evidence-traceable metaresearch program for finding computationally testable questions and rejecting weak candidates before experimentation.
 
-Focused projects such as [Emergency AI](https://github.com/CasterlyGit/emergency-ai),
-[Neon Stereo](https://github.com/CasterlyGit/neon-stereo), and other experiments
-remain independent applications rather than being presented as competing system
-visions.
+## Other experiments
 
-## Read the code
+- **[Emergency AI](https://github.com/CasterlyGit/emergency-ai)** — an offline-capable engineering prototype exploring bounded emergency decision-support interfaces. It is explicitly not an emergency service or clinically validated system.
+- **[Neon Stereo](https://github.com/CasterlyGit/neon-stereo)** and other focused applications remain independent experiments rather than parts of one oversized platform story.
 
-Each main project documents its own architecture, setup, verification, and
-current limits. The [portfolio map](docs/PORTFOLIO.md) is the canonical public
-overview. Retired prototypes and the prior six-flagship program remain archived
-for historical reference; they are not active product directions.
+## How I build
+
+- Prefer runnable prototypes over slideware.
+- Keep automation reviewable and interruptible.
+- Separate demonstrated behavior from aspirational claims.
+- Document failure modes and current limits alongside features.
+- Use public projects to learn, test ideas, and have better technical conversations.
+
+For the fuller project map, see **[docs/PORTFOLIO.md](docs/PORTFOLIO.md)**.
